@@ -124,6 +124,8 @@ function getRandomNr() {
 
 Vervang de StopDice() functie in het onclick attribuut maar eens voor **alert(getRandomNr())** en kijk wat er gebeurt. Als je alles goed hebt ingevuld zal via een alertbox steeds een ander nummer tussen de 1 en 6 worden getoond. 
 
+![random alert](alert2.png)
+
 Je hebt nu gezien dat het resultaat van de **getRandomNr()** functie naar de alertbox wordt gebracht. Zorg er nu voor dat dit _random_ resultaat naar de **StopDice()** functie wordt gebracht. Vervang hier wederom de alert functie uit de vorige opdracht voor de StopDice() functie en plaats binnen de ronde haakjes de aanroep naar de getRandomNr() functie. Je brengt dus het resultaat uit de getRandomNr() functie in de StopDice() functie. 
 
 Heb je alles goed gemaakt dan stopt nu je dobbelsteen op een random nummer na iedere druk op de knop.
