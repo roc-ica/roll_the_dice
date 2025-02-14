@@ -76,30 +76,57 @@ Je ziet nu een melding verschijnen:
 
 ![alert](alert.png)
 
-Na het testen vervang je de `alert()` door een verwijzing naar de `StopDice()` functie.
+Omdat een attribuut meestal een waarde krijgt moet het stukje Javascript, welke nu zorgt voor de alertbox met het bericht _werp de steen_, worden vervangen. Om dit voor elkaar te krijgen moet je weten dat er in de code een functie is gemaakt die zorgt voor het stoppen van de steen op een bepaald nummer. Deze functie heet: **StopDice()**. Zoek in het **<script>** element de code voor deze functie op en vervang op de plek van de alert uit de vorige oefening, de verwijzing naar deze functie. 
 
-```html
-onclick="StopDice();"
+```javascript
+onclick="StopDice()"
+```
+
+Let ook goed op de ronde haakjes die hier moeten worden gebruikt, zet je geen getal tussen deze ronde haken dan stopt de dobbelsteen altijd op "1".
+
+Hier de code van de StopDice() functie:
+
+```js
+// Deze functie animeert naar een bepaald nummer tussen 1 en 6 
+// en stopt de dobbelanimatie op dat nummer
+function StopDice(n) {
+   let ec1 = document.getElementById("cube1");
+   ec1.classList.remove("stopanim");
+   ec1.classList.add("simpleanim");
+   // start after 500ms the animation to the correct number
+   setTimeout(function(){ 
+      ec1.classList.remove("simpleanim");
+      ec1.classList.add("stopanim");
+      ec1.style.setProperty("--spinnr","spin" + n);
+   }, 500);
+}
 ```
 
 Je kunt testen of het werkt door het HTML-bestand opnieuw te laden en op de knop te drukken.
 
 ### Stap 3: Willekeurig getal genereren
 
-De functie `getRandomNr()` genereert een willekeurig getal tussen 1 en 6:
+Wanneer de vorige opdracht is gelukt zul je merken dat de dobbelsteen altijd op nummer "1" stopt. Dit is natuurlijk niet de bedoeling. Vul maar eens tussen de haakjes van **StopDice()** een ander nummer in. Als het goed is zal de dobbelsteen stoppen op dat nummer. 
+
+```html
+onclick="StopDice(2);"
+```
+
+Dit zal ervoor zorgen dat de dobbelsteen op nr.2 stopt. Omdat je bij een dobbelsteen natuurlijk niet van tevoren weet wat er gegooid gaat worden zul je een zg. random (willekeurig) nummer moeten kiezen. Dit kan met de functie **getRandomNr()** die ook tussen de <script> tags staat. 
 
 ```js
+// deze functie geeft een random nummer terug tussen 1 en 6
 function getRandomNr() {
    let r = Math.floor((Math.random() * 6) + 1);  
    return r;
 }
 ```
 
-Gebruik deze functie in plaats van de vaste waarde in `StopDice()`, zodat de dobbelsteen een willekeurig nummer toont bij elke worp:
+Vervang de StopDice() functie in het onclick attribuut maar eens voor **alert(getRandomNr())** en kijk wat er gebeurt. Als je alles goed hebt ingevuld zal via een alertbox steeds een ander nummer tussen de 1 en 6 worden getoond. 
 
-```html
-onclick="StopDice(getRandomNr());"
-```
+Je hebt nu gezien dat het resultaat van de **getRandomNr()** functie naar de alertbox wordt gebracht. Zorg er nu voor dat dit _random_ resultaat naar de **StopDice()** functie wordt gebracht. Vervang hier wederom de alert functie uit de vorige opdracht voor de StopDice() functie en plaats binnen de ronde haakjes de aanroep naar de getRandomNr() functie. Je brengt dus het resultaat uit de getRandomNr() functie in de StopDice() functie. 
+
+Heb je alles goed gemaakt dan stopt nu je dobbelsteen op een random nummer na iedere druk op de knop.
 
 ## Level 2 - Opdrachten
 
