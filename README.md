@@ -55,6 +55,8 @@ De HTML-code bepaalt de structuur van de pagina, de CSS-code zorgt voor de styli
 
 Op dit moment worden groene, ronde afbeeldingen weergegeven op de zijden van de dobbelsteen. Dit moet aangepast worden naar normale dobbelsteenafbeeldingen.
 
+![6 dices](dice6.png)
+
 - Zoek in de CSS-code waar de dobbelsteenafbeeldingen worden ingesteld.
 - Vervang de groene ronde afbeeldingen met de juiste afbeeldingen uit de `Images`-map.
 
