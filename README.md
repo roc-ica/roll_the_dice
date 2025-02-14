@@ -1,3 +1,4 @@
+![dobbelsteen](dice.png)
 # Roll The Dice - Opdracht VMBO Traject
 
 ## Doelstelling
