@@ -11,7 +11,7 @@ In deze opdracht begin je met een webpagina waar een dobbelsteen op wordt getoon
 
 ## Benodigd Materiaal
 
-- Een PC / Mac met een code-/teksteditor (Notepad++, Sublime, UltraEdit).
+- Een PC / Mac met een code-/teksteditor ([Notepad++](https://notepad-plus-plus.org/downloads/)Notepad++, Sublime, UltraEdit).
 - Een webbrowser (Chrome, Firefox, Edge).
 - Het internet (om dingen op te zoeken).
 - Het stappenplan.
