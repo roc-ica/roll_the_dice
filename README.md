@@ -37,7 +37,7 @@ De benodigde bestanden kun je terugvinden op de USB-stick of op je computer. Het
         round_dice_6.png
 ```
 
-[Bekijk en download de afbeeldingen](https://github.com/roc-ica/tree/main/roll_the_dice/opdracht/images)
+[Bekijk en download de afbeeldingen](https://github.com/roc-ica/roll_the_dice/tree/main/opdracht/images)
 
 ## Werking van het HTML-bestand
 
