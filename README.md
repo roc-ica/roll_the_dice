@@ -67,6 +67,11 @@ Momenteel doet de knop niets. Voeg een `onclick`-attribuut toe aan de HTML-knop:
 ```html
 onclick="alert('Werp de steen');"
 ```
+
+Let op dat je exact de bovenstaande code overneemt. Haakjes, hoofdletters, kleine letters, dubbele en enkele quotes. Het is allemaal belangrijk dat het klopt.
+
+Voer de code uit en zie wat er gebeurt. Doe dit door je HTML-bestand op te slaan en deze opnieuw in je webbrowser te herladen met F5.
+
 Je ziet nu een melding verschijnen:
 
 ![alert](alert.png)
