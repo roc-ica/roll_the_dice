@@ -41,7 +41,7 @@ De benodigde bestanden kun je terugvinden op de USB-stick of op je computer. Het
 
 ## Werking van het HTML-bestand
 
-Het bestand `dice.html` bevat HTML in combinatie met CSS en Javascript. Je kunt dit bestand openen in een webbrowser om te zien hoe het eruitziet. De broncode kan bekeken worden met een teksteditor zoals Notepad++.
+Het bestand [dice.html](https://github.com/roc-ica/roll_the_dice/tree/main/dice.html) bevat HTML in combinatie met CSS en Javascript. Je kunt dit bestand openen in een webbrowser om te zien hoe het eruitziet. De broncode kan bekeken worden met een teksteditor zoals Notepad++.
 
 ### Belangrijke Code Secties
 
