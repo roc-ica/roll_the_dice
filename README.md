@@ -67,6 +67,8 @@ Momenteel doet de knop niets. Voeg een `onclick`-attribuut toe aan de HTML-knop:
 ```html
 onclick="alert('Werp de steen');"
 ```
+Je ziet nu een melding verschijnen:
+![alert](alert.png)
 
 Na het testen vervang je de `alert()` door een verwijzing naar de `StopDice()` functie.
 
