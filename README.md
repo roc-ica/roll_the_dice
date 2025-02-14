@@ -1,5 +1,5 @@
 ![dobbelsteen](dice.png)
-# Roll The Dice - Opdracht VMBO Traject
+# Roll The Dice - Opdracht Kennismakingsdag
 
 ## Doelstelling
 
