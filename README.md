@@ -41,7 +41,7 @@ De benodigde bestanden voor deze opdracht kun je downloaden met de knop in deze 
 
 ## Werking van het HTML-bestand
 
-Het bestand [dice.html](https://github.com/roc-ica/roll_the_dice/tree/main/opdracht/dice.html) bevat HTML in combinatie met CSS en Javascript. Je kunt dit bestand openen in een webbrowser om te zien hoe het eruitziet. De broncode kan bekeken worden met een teksteditor zoals Notepad++.
+Het bestand _dice.html_ bevat HTML in combinatie met CSS en Javascript. Je kunt dit bestand openen in een webbrowser (dubbelklikken) om te zien hoe het eruitziet. De broncode kan bekeken worden met een teksteditor zoals bijvoorbeeld Notepad++.
 
 ### Belangrijke Code Secties
 
