@@ -18,7 +18,7 @@ In deze opdracht begin je met een webpagina waar een dobbelsteen op wordt getoon
 
 ## Bestandenstructuur
 
-De benodigde bestanden voor deze opdracht kun je [hier](./opdracht/) bekijken en downloaden. 
+De benodigde bestanden voor deze opdracht kun je downloaden met de knop in deze pagina. Nadat je de bestanden hebt gedownload, pak je ze uit op een locatie op je computer. Vanuit deze locatie ga je aan de slag met de opdracht.
 
 ```
 │   dice.html
